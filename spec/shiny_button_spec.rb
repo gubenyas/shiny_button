@@ -6,5 +6,4 @@ describe ShinyButton do
     subject.do_action
     expect(subject.state).to eq(:started)
   end
-
 end
